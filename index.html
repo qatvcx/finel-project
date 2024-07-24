@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabouna.tn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                
+                <img src="./images/sabounatn-Logo.png" alt="Sabouna Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#soaps">Soaps</a></li>
+                    <li><a href="#shampoos">Shampoos</a></li>
+                    <li><a href="#gifts">savonliquide</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Sabouna.tn</h2>
+        </div>
+    </section>
+    
+    <section id="soaps">
+        <div class="container">
+            <h2>Soaps</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <h3>Olive Soap</h3>
+                    <p>Description of Olive Soap</p>
+                    <button class="add-to-cart" data-product="Olive Soap">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Lavender Soap</h3>
+                    <p>Description of Lavender Soap</p>
+                    <button class="add-to-cart" data-product="Lavender Soap">Add to Cart</button>
+                </div>
+                <!-- Add more soap products as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="shampoos">
+        <div class="container">
+            <h2>Shampoos</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <h3>Herbal Shampoo</h3>
+                    <h5>2.OO</h5>
+                    <p>Description of Herbal Shampoo</p>
+                    <button class="add-to-cart" data-product="Herbal Shampoo">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Anti-Dandruff Shampoo</h3>
+                    <p>Description of Anti-Dandruff Shampoo</p>
+                    <button class="add-to-cart" data-product="Anti-Dandruff Shampoo">Add to Cart</button>
+                </div>
+        </div>
+    </section>
+    
+    <section id="gifts">
+        <div class="container">
+            <h2>Gift Sets</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <h3>Luxury Gift Set</h3>
+                    <p>Description of Luxury Gift Set</p>
+                    <button class="add-to-cart" data-product="Luxury Gift Set">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Holiday Gift Set</h3>
+                    <p>Description of Holiday Gift Set</p>
+                    <button class="add-to-cart" data-product="Holiday Gift Set">Add to Cart</button>
+                </div>
+                <!-- Add more gift sets as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <ul id="cart-items"></ul>
+                <button id="reset-cart">Reset Cart</button>
+            </div>
+            <button id="checkout">Checkout</button>
+        </div>
+    </section>
+    <div id="modal">
+        <div id="modal-content">
+            <h1>MODAL</h1>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sabouna.tn</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
